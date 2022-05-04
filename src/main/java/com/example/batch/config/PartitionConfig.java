@@ -34,7 +34,6 @@ public class PartitionConfig {
 
     @Autowired
     public StepBuilderFactory stepBuilderFactory;
-
     @Bean
     public Job partitioningJob() throws Exception {
         return jobBuilderFactory.get("partitioningJob").incrementer(new RunIdIncrementer()).flow(masterStep()).end()
