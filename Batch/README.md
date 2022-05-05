@@ -21,3 +21,5 @@ Please finish the following tasks:
 
 
 And, of course, always try to make the system run as fast as possible.
+
+[My Report and Notes](https://august0830.github.io/post/27c8219b/)
